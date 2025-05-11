@@ -10,8 +10,8 @@ const stones = [
       "Durable construction",
       "Standard government specifications"
     ],
-    price: "₹600",
-    image: "https://images.unsplash.com/photo-1597980645453-015656cf6a3e?auto=format&fit=crop&q=80"
+    price: "₹600 - ₹900",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNpYCAxbj7wvElw658Ge6Kv6V2XJsXYupdQ&s"
   },
   {
     title: "Kilometer Stone (KM)",
@@ -23,7 +23,7 @@ const stones = [
       "Standard government specifications"
     ],
     price: "₹800",
-    image: "https://images.unsplash.com/photo-1597980645453-015656cf6a3e?auto=format&fit=crop&q=80"
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLsXgZETcgTmNVZzJqBDnjwbHlY8iJ185ZCw&s"
   }
 ];
 
@@ -39,14 +39,14 @@ function StonesDetail() {
               <img
                 src={stone.image}
                 alt={stone.title}
-                className="w-full h-48 object-cover"
+                className="w-full  "
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{stone.title}</h3>
-                <p className="text-gray-600 mb-4">{stone.description}</p>
+                <p className=" mb-4">{stone.description}</p>
                 <div className="mb-4">
-                  <h4 className="font-semibold mb-2">Specifications:</h4>
-                  <ul className="list-disc list-inside space-y-1 text-gray-600">
+                  <h4 className="font-semibold mb-2">Description:</h4>
+                  <ul className="list-disc list-inside space-y-1 ">
                     {stone.specifications.map((spec, i) => (
                       <li key={i}>{spec}</li>
                     ))}
@@ -58,7 +58,7 @@ function StonesDetail() {
                 </div>
                 <a
                   href="#contact"
-                  className="block w-full bg-blue-600 text-white text-center py-2 rounded hover:bg-blue-700 transition"
+                  className="block w-full bg-green-600 text-white text-center py-2  hover:bg-blue-700 transition"
                 >
                   Get Quotation
                 </a>

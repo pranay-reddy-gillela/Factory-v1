@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <div className="relative h-[60vh] bg-gradient-to-r from-blue-900 to-blue-700">
+      <div className="relative h-[60vh] bg-gradient-to-r from-blue-700 to-green-400">
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative container mx-auto px-4 h-full flex flex-col justify-center text-white">
           <h1 className="text-5xl font-bold mb-4">Sri Sai Balaji Spun Pipes</h1>
@@ -53,7 +53,7 @@ function Home() {
             </div>
             <div className="flex items-center gap-3">
               <Phone className="text-blue-600" />
-              <span>+91 9999999999</span>
+              <span>+91 9490127350</span>
             </div>
             <div className="flex items-center gap-3">
               <MapPin className="text-blue-600" />

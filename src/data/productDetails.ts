@@ -127,7 +127,7 @@ export const productDetails: Record<string, Array<{
       price: "₹6,500",
       image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&q=80"
     },
-    // Add more NP3 sizes...
+    // Here Add more NP3 sizes...
   ],
   np4: [
     {
@@ -163,7 +163,7 @@ export const productDetails: Record<string, Array<{
       price: "₹7,800",
       image: "https://images.unsplash.com/photo-1542621334-a254cf47733d?auto=format&fit=crop&q=80"
     },
-    // Add more NP4 sizes...
+    // Here Add more NP4 sizes...
   ],
   pressure: [
     {

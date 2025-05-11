@@ -18,7 +18,7 @@ function Products() {
               <img
                 src={category.image}
                 alt={category.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-50 object-cover"
               />
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{category.title}</h3>
